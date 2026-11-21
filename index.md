@@ -19,8 +19,9 @@ permalink: /
 }
 
 .portfolio-intro h1 {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  line-height: 1.15;
+  margin-bottom: 20px;
   color: #17385f;
 }
 
