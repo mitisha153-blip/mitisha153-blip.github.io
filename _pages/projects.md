@@ -236,9 +236,10 @@ classes: wide
       BigQuery · Cloud Run · Eventarc · SQL
     </div>
 
-    <span class="portfolio-project-upcoming">
-      Case Study Coming Soon
-    </span>
+    <a class="portfolio-project-link"
+   href="/projects/google-cloud-pos-automation/">
+  View Case Study &rarr;
+</a>
   </div>
 
   <!-- PROJECT 5: HOUSING ANALYTICS -->
