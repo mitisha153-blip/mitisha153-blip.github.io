@@ -110,10 +110,7 @@ permalink: /
     </p>
 
     <p>
-      With over five years of professional experience
-      in finance and taxation, I combine financial
-      expertise with analytical thinking to solve
-      business problems.
+    With over eight years of experience across finance, taxation, auditing, and advisory, I combine financial expertise with analytical thinking to solve business problems.
     </p>
 
     <a class="portfolio-button" href="/projects/">
