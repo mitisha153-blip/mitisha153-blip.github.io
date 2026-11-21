@@ -1,27 +1,49 @@
-# Minimal Mistakes remote theme starter
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+# Mitisha Shah | Portfolio
 
-Contains basic configuration to get you a site with:
+Personal portfolio website showcasing my background
+in finance and business analytics, along with
+selected projects in machine learning, financial
+analytics, data engineering, and business strategy.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## About Me
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+I am a Chartered Accountant pursuing a Master of
+Science in Business Analytics and Information
+Management at Purdue University.
 
----
+My interests include FinTech, financial analytics,
+risk analytics, predictive modeling, and
+data-driven decision-making.
 
-## Troubleshooting
+## Website
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+https://mitisha153-blip.github.io/
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## Featured Projects
+
+- Kaggle: Digital Ad Click Prediction
+- Customer Targeting & Profitability Optimization
+- Google Cloud POS Data Automation
+- Loan Default Prediction
+- Housing Price Prediction
+- Charles Schwab Brand Strategy
+
+## Technologies
+
+Python, SQL, machine learning, predictive analytics,
+Google Cloud, BigQuery, and statistical modeling.
+
+## Website Theme
+
+This website is built with Jekyll and the
+[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+theme, created by Michael Rose.
+
+Minimal Mistakes is distributed under the MIT License.
+The original theme and its contributors retain
+their respective copyright and license notices.
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/mitisha-shah-9a83b717b)
