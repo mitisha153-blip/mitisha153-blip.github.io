@@ -6,9 +6,9 @@ author_profile: false
 classes: wide
 ---
 
-# Predicting Digital Ad Clicks with Ensemble Machine Learning
-
-**Kaggle Machine Learning Competition | Team RAM**
+<p style="color:#64748b; font-size:1.05rem; margin-top:0;">
+  Kaggle Machine Learning Competition &nbsp;|&nbsp; Team RAM
+</p>
 
 **Python · XGBoost · LightGBM · CatBoost · Scikit-learn · Ensemble Learning**
 
