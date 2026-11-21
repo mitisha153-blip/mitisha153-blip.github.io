@@ -1,44 +1,162 @@
+
 ---
 layout: single
-title: "Welcome to My Portfolio"
-author_profile: true
+title: ""
+author_profile: false
 permalink: /
 ---
 
-# Hi, I'm Mitisha Shah!
+<style>
+.portfolio-hero {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin: 35px 0 55px;
+}
 
-### Chartered Accountant | Business Analytics Graduate Student
+.portfolio-intro {
+  flex: 1;
+}
 
-I'm currently pursuing my Master of Science in Business Analytics and Information Management at Purdue University.
+.portfolio-intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #17385f;
+}
 
-With over five years of professional experience in finance and taxation, I'm combining my financial expertise with analytical and technical skills to solve business problems.
+.portfolio-intro p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
 
-My interests include financial analytics, predictive modeling, risk analysis, and FinTech.
+.portfolio-photo {
+  width: 260px;
+  max-width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+}
 
----
+.portfolio-button {
+  display: inline-block;
+  background: #17385f;
+  color: white !important;
+  padding: 11px 20px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  margin-top: 15px;
+}
 
-## Featured Projects
+.portfolio-projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 25px;
+}
 
-### Loan Default Prediction
+.project-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 22px;
+  background: #f8fafc;
+}
 
-Predictive modeling focused on evaluating credit risk and supporting lending decisions.
+.project-card h3 {
+  margin-top: 0;
+  color: #17385f;
+}
 
-### Customer Targeting Analytics
+@media (max-width: 700px) {
+  .portfolio-hero {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
 
-Using predictive analytics to identify high-value customers and improve marketing decisions.
+  .portfolio-photo {
+    width: 220px;
+  }
 
-### Google Cloud POS Automation
+  .portfolio-projects {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
-Developing an event-driven data pipeline using Google Cloud services to automate data ingestion and processing.
+<div class="portfolio-hero">
+  <div class="portfolio-intro">
+    <h1>Hi, I'm Mitisha Shah!</h1>
 
-### Charles Schwab Brand Strategy
+    <h3>Finance × Business Analytics</h3>
 
-Exploring how financial services companies can strengthen their advisory positioning through brand strategy.
+    <p>
+      I'm a Chartered Accountant currently pursuing
+      my MS in Business Analytics and Information
+      Management at Purdue University.
+    </p>
 
----
+    <p>
+      With over five years of professional experience
+      in finance and taxation, I combine financial
+      expertise with analytical thinking to solve
+      business problems.
+    </p>
 
-## Let's Connect
+    <a class="portfolio-button" href="/projects/">
+      Explore My Projects
+    </a>
+  </div>
 
-[LinkedIn](https://www.linkedin.com/in/mitisha-shah-9a83b717b)
+  <img
+    class="portfolio-photo"
+    src="/assets/images/mitisha-profile.jpg"
+    alt="Professional headshot of Mitisha Shah">
+</div>
 
-[GitHub](https://github.com/mitisha153-blip)
+<h2>Featured Projects</h2>
+
+<div class="portfolio-projects">
+
+  <div class="project-card">
+    <h3>Loan Default Prediction</h3>
+    <p>
+      Applying predictive analytics to assess
+      credit risk and support lending decisions.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>Customer Targeting Analytics</h3>
+    <p>
+      Using machine learning to evaluate
+      customer targeting and marketing profitability.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>Google Cloud POS Automation</h3>
+    <p>
+      Building an event-driven data pipeline
+      using Google Cloud and BigQuery.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>Charles Schwab Brand Strategy</h3>
+    <p>
+      Exploring financial-services brand
+      positioning and advisory differentiation.
+    </p>
+  </div>
+
+</div>
+
+<h2>Let's Connect</h2>
+
+<p>
+  <a href="https://www.linkedin.com/in/mitisha-shah-9a83b717b">
+    LinkedIn
+  </a>
+  |
+  <a href="https://github.com/mitisha153-blip">
+    GitHub
+  </a>
+</p>
