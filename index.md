@@ -10,8 +10,23 @@ permalink: /
 .portfolio-hero {
   display: flex;
   align-items: center;
-  gap: 45px;
+  justify-content: space-between;
+  gap: 30px;
   margin: 35px 0 55px;
+}
+
+.portfolio-intro {
+  flex: 1 1 60%;
+  min-width: 0;
+}
+
+.portfolio-photo {
+  flex: 0 1 35%;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
 }
 
 .portfolio-intro {
