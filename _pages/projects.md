@@ -179,9 +179,10 @@ classes: wide
       Credit Risk · Classification · Predictive Modeling
     </div>
 
-    <span class="portfolio-project-upcoming">
-      Case Study Coming Soon
-    </span>
+    <a class="portfolio-project-link"
+   href="/projects/customer-targeting/">
+  View Case Study &rarr;
+</a>
   </div>
 
   <!-- PROJECT 3: CUSTOMER TARGETING -->
